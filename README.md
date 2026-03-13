@@ -3,32 +3,32 @@
 ssh bandit(Level #)@bandit.labs.overthewire.org -p 2220
 
 ## Level 0 --> 1
-Command(s) used: ``` ```
+Command(s) used: ```ls```, ```cat```
 
 Password found: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 ## Level 1 --> 2
-Command(s) used: ``` ```
+Command(s) used: ```cat ./(Special character filename)```
 
 Password found: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 ## Level 2 --> 3
-Command(s) used: ``` ```
+Command(s) used: ```cat ./--spaces\ in\ this\ filename--```
 
 Password found: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 ## Level 3 --> 4
-Command(s) used: ``` ```
+Command(s) used: ```ls -a```, ```cat```
 
 Password found: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 ## Level 4 --> 5
-Command(s) used: ``` ```
+Command(s) used: ```find /dir/to/files/ -type f -exec file {} \; | grep text```
 
 Password found: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 ## Level 5 --> 6
-Command(s) used: ``` ```
+Command(s) used: ```find /dir/to/files/ -type f -size (file size)c ! -executable```
 
 Password found: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
