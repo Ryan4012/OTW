@@ -28,7 +28,7 @@ Command(s) used: ```find /dir/to/files/ -type f -exec file {} \; | grep text```
 Password found: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 ## Level 5 --> 6
-Command(s) used: ```find /dir/to/files/ -type f -size (file size)c ! -executable```
+Command(s) used: ```find /dir/to/files/ -type f -size (File Size)c ! -executable```
 
 Password found: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
@@ -48,16 +48,36 @@ Commands used: ```sort (File Name) | uniq -u```
 Password found: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
 ## Level 9 --> 10
-Commands used: ``` ```
+Commands used: ```strings (File Name).txt | grep "="```
 
-Password found: 
+Password found: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
 ## Level 10 --> 11
+Commands used: ```echo "base64 encrypted string" | base64 --decode```
+
+Password found: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+## Level 11 --> 12
+Commands used: ```tr 'A-Za-z' 'N-ZA-Mn-za-m' < (File Name).txt```
+
+Password found: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+## Level 12 --> 13
 Commands used: ``` ```
 
 Password found: 
 
-## Level 11 --> 12
+## Level 13 --> 14
+Commands used: ``` ```
+
+Password found: 
+
+## Level 14 --> 15
+Commands used: ``` ```
+
+Password found: 
+
+## Level 15 --> 16
 Commands used: ``` ```
 
 Password found: 
