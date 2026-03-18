@@ -100,7 +100,7 @@ Password found: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 ## Level 19 --> 20
 Commands used: ```./(File) cat /path/to/password/ ```
 
-Password found:0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+Password found: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 
 ## Level 20 --> 21
 Commands used: ``` ```
