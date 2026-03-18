@@ -63,22 +63,76 @@ Commands used: ```tr 'A-Za-z' 'N-ZA-Mn-za-m' < (File Name).txt```
 Password found: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
 ## Level 12 --> 13
-Commands used: ``` ```
+Commands used: ```xxd -r (File).txt > (New File Name)```, ```file (New File Name)```, ```mv (New File Name) (New File Name).gz / gunzip (New File Name).gz```, ```mv (New File Name) (New File Name).bz2 / bunzip2 (New File Name).bz2```, ```tar -xf (New File Name)```
 
-Password found: 
+Password found: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
 ## Level 13 --> 14
-Commands used: ``` ```
+Commands used: ```chmod (Permissions) (File)```, ```ls -l (File)```
 
-Password found: 
+Password found: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
 ## Level 14 --> 15
-Commands used: ``` ```
+Commands used: ```echo "Password" | nc localhost 30000```
 
-Password found: 
+Password found: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
 ## Level 15 --> 16
+Commands used: ```openssl s_client -connect localhost:30001```
+
+Password found: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+## Level 16 --> 17
+Commands used: ```nmap -p 31000-32000 --script ssl-enum-ciphers localhost```, ```openssl s_client -connect localhost:(Port)```
+
+Password found: SSH Key to get to level 17
+
+## Level 17 --> 18
+Commands used: ``` diff -y (File #1) (File #2)```
+
+Password found: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+## Level 18 --> 19
+Commands used: ```-t cat readme```
+
+Password found: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+## Level 19 --> 20
+Commands used: ```./(File) cat /path/to/password/ ```
+
+Password found:0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+## Level 20 --> 21
 Commands used: ``` ```
 
-Password found: 
+Password found:
 
+## Level 21 --> 22
+Commands used: ``` ```
+
+Password found:
+
+## Level 22 --> 23
+Commands used: ``` ```
+
+Password found:
+
+## Level 21 --> 22
+Commands used: ``` ```
+
+Password found:
+
+## Level 21 --> 22
+Commands used: ``` ```
+
+Password found:
+
+## Level 21 --> 22
+Commands used: ``` ```
+
+Password found:
+
+## Level 21 --> 22
+Commands used: ``` ```
+
+Password found:
