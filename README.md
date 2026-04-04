@@ -103,31 +103,31 @@ Commands used: ```./(File) cat /path/to/password/ ```
 Password found: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 
 ## Level 20 --> 21
-Commands used: ``` ```
+Commands used: ```nc -l -p (Fake Port)```, ```./(File) (Fake Port)```
 
-Password found:
+Password found: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
 ## Level 21 --> 22
-Commands used: ``` ```
+Commands used: ```cd```, ```cat```, ```ls```
 
-Password found:
+Password found: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 
 ## Level 22 --> 23
+Commands used: ```echo "I am user $myname" | md5sum```, ```cat```
+
+Password found: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+
+## Level 23 --> 24
 Commands used: ``` ```
 
 Password found:
 
-## Level 21 --> 22
+## Level 24 --> 25
 Commands used: ``` ```
 
 Password found:
 
-## Level 21 --> 22
-Commands used: ``` ```
-
-Password found:
-
-## Level 21 --> 22
+## Level 25 --> 26
 Commands used: ``` ```
 
 Password found:
